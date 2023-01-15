@@ -7,7 +7,7 @@
 
 }
 
-/* Navbar */
+/* Navbar-------------start */
 .navbar {
     display: flex;
     padding: 40px 0;
@@ -40,8 +40,9 @@
     margin-right: 10px;
     color: #424242;
 }
+/* navbar--------end */
 
-/* main-banner */
+/* main-banner.............start... */
 
 .banner-container {
     display: flex;
@@ -95,8 +96,9 @@
 
 
 }
+/* main-banner---.......end.. */
 
-/* 2nd banner */
+/* 2nd-banner.........start..... */
 .second-container {
     display: flex;
     align-items: center;
@@ -147,10 +149,10 @@
 }
 
 
+/* 2nd-banner.........end... */
 
 
-
-/* 3rd section */
+/* 3rd section.........start... */
 
 .third-section {
     margin-top: 100px;
@@ -219,7 +221,9 @@
 
 }
 
-/* fourth-section */
+/* 3rd section..........end.. */
+
+/* fourth-section...........start...... */
 .title-4 {
     font-weight: 700;
     font-size: 45px;
@@ -265,9 +269,9 @@
     color: #727272;
 }
 
+/* fourth-section.............end......... */
 
-
-/* last-section */
+/* last-section ...........start...*/
 
 .last-section {
     display: flex;
@@ -300,7 +304,11 @@
     margin-top: 50px;
     
 }
-/* table */
+
+/* last-section.............end....... */
+
+
+/* table .......start...........(extra)........*/
 .table{
     margin: 50px 100px;
     text-align: center;
@@ -320,14 +328,14 @@
   }
   
   #customers td, #customers th {
-    border: 1px solid #ddd;
+    border: 1px solid #FFF4E7;
     padding: 8px;
     text-align: start;
   }
   
   #customers tr:nth-child(even){background-color: #f2f2f2;}
   
-  #customers tr:hover {background-color: #ddd;}
+  #customers tr:hover {background-color: #FFF4E7;}
   
   #customers th {
     padding-top: 12px;
@@ -337,7 +345,9 @@
     color: white;
   }
 
-/* footer css */
+  /* table.........start.............(extra).... */
+
+/* footer.................start......... */
 
 .footer{
     margin-top: 126px;
@@ -356,9 +366,12 @@
 }
 
 
+/* footer..................end............ */
 
 
-/* media query */
+
+/* media query ..............start.........*/
+
 @media screen and (max-width:678px) {
     /* Navbar */
 .navbar {
@@ -710,3 +723,4 @@
     
 }
 
+/* media query......................end */
